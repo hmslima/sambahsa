@@ -1,0 +1,494 @@
+html, body 
+{
+    height: 100%;
+    margin: 0;
+    min-height: 100%;
+    padding: 0;
+}
+
+.hol {height: 100%;}
+
+@font-face 
+{
+    font-family: GreatVibes;
+    src: url("fonts/GreatVibes-Regular.otf") format("opentype");
+}
+
+.importantTitule
+{
+	font-family: GreatVibes;
+}
+
+div.titule {float: left; width: 100%; background-color: #78472d; color: #FFFFFF; text-align: center; font-size: 3em; margin-bottom: 20px;}
+
+img#kwekwl {display: inline; height: 1em; vertical-align: -10%;}
+img.fullimg {width: 80%;}
+
+div.futliar 
+{ 
+	width: 80%; 
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+div.mathmoun {padding-top: 10px; padding-bottom: 10px; padding-left: 15%; padding-right: 15%;}
+div.mathmoun000 {background-color: #000033; padding-bottom: 50px; padding-top: 15%; padding-left: 0; padding-right: 0}
+div.mathmoun001 {background-color: #DDE0E0;}
+div.mathmoun002 {background-color: #D3C54D;}
+div.mathmoun003 {background-color: #92C63B;}
+div.mathmoun004 {background-color: #DBC074;}
+
+div.no_script {background-color: #FF0000; font-weight: bold; text-align: center;}
+
+.slides-wrapper {display: flex;}
+.slides {display: none; width: 100%; margin: auto; height: 500px; font-size: 2em;}
+.spanlink {font-weight: bold; color: #DD4F4F; cursor: pointer; font-size: 0.6em;}
+.spanspace {padding: 0 50px 0 50px;}
+.slidebuttonsp {text-indent: 0;}
+.slidetitle {font-size: 1.5em; font-weight: bold;}
+.tableslides {font-size:0.6em; width: 100%; border: 1px solid black; border-collapse: collapse;}
+.tableslideselement {border: 1px solid black; padding-left: 5px; padding-right: 5px;}
+
+.generictable {width: 100%; border: 1px solid black; border-collapse: collapse;}
+.generictable th {background: #E5E5E5;}
+.generictable td {background: #FFFFFF;}
+.generictableelement {border: 1px solid black; padding-left: 5px; padding-right: 5px;}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  background-color: #8F8424;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 25px 25px; 
+}
+
+#mathmoun000-container
+{
+	position: relative;
+	margin-bottom: 10%;
+	margin-left: 10%;
+}
+
+#principalMessage
+{
+	display: inline-block;
+	width: 70%;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 4.5em;
+	text-align: left;
+	font-weight: bold;	
+	color: #ffff99;
+}
+
+#rotativeSymbol
+{
+	position: absolute;
+	top: 20%;
+	display: inline-block;
+	width: 20%;
+}
+
+#meger-symbol
+{	
+	width: 90%;
+	-webkit-animation-name: spin;
+	-webkit-animation-duration: 6000ms;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-name: spin;
+	-moz-animation-duration: 6000ms;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-ms-animation-name: spin;
+	-ms-animation-duration: 6000ms;
+	-ms-animation-iteration-count: infinite;
+	-ms-animation-timing-function: linear;    
+	animation-name: spin;
+	animation-duration: 6000ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+#alyoBahsa
+{
+	background: #CC9933;
+	padding: 10px;
+	margin: 10px 0;
+	color: #000000;
+	margin-left: 10%;
+}
+
+div.cheusBahsa
+{
+	text-align: center;
+	font-size: 1.2em;
+	height: 95%;
+}
+
+div.menue
+{
+	text-align: center;
+	padding: 0 0 10px 0;
+	font-weight: bold;
+	font-size: 0.5em;
+}
+
+span.menueItem {margin-left: 25px; margin-right: 25px;}
+
+a.menueDiemen:link{color: #FFFFFF; text-decoration:none;}
+a.menueDiemen:visited{color: #FFFFFF; text-decoration:none;}
+a.menueDiemen:hover{color: #AA00AA; text-decoration:none;}
+a.menueDiemen:active{color: #FFFFFF; text-decoration:none;}
+
+.inputTextArea {display: block; margin: auto; width: 80%; height: 10em;}
+#spt_outputTextArea {display: none; background-color: #E9EDED; margin: auto; margin-top: 20px; width: 80%; padding: 10px; text-align: justify;}
+#ipa_outputTextArea {display: none; background-color: #E9EDED; margin: auto; margin-top: 20px; width: 80%; padding: 10px; text-align: justify;}
+
+div.copierect
+{
+	width: 100%;
+	text-align: center;
+	padding: 0;
+	background-color: #211010;
+	color: #FFFFFF;
+	height: 1.2em;
+}
+
+/* Tik pro quan neudo id copyleft symbol*/
+.copierectSymbol {display: inline-block; transform: scaleX(-1);}
+
+.ender
+{
+	position: absolute;
+	bottom: 0;
+}
+
+a:link{color:#DD4F4F; text-decoration:none; font-weight:bold;}
+a:visited{color:#DD4F4F; text-decoration:none; font-weight:bold;}
+a:hover{color:#AA00AA; text-decoration:none; font-weight:bold;}
+a:active{color:#DD4F4F; text-decoration:none; font-weight:bold;}
+
+a.swordLink{color: #000000; text-decoration:none;}
+
+p {text-indent: 30px; text-align: justify;}
+
+sup {font-size: 0.6em;}
+
+div.colunn
+{
+	display: inline-block;
+	width: 40%;
+	margin: 10px;
+	vertical-align: text-top;
+	text-align: justify;
+}
+
+img.tamijdarKwiter
+{
+	display: block;
+	width: 100%;
+}
+
+img.bayghSmulkKwiter
+{
+	display: inline-block;
+}
+
+img.swonKwiter
+{
+	width: 30px;
+	margin: 5px 2px 0 0;
+}
+
+.smulkTitule 
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+
+.smulkerTitule
+{
+	font-weight: bold;
+	font-size: 1.1em;
+	text-align: center; /*Wehrct tik in divs, ne in spans, baygh convenient*/
+}
+
+.item
+{
+	background: #FFFFFF; /* Fallback */
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 25px;
+	padding: 5px 10px 10px 10px;
+	margin: 10px 0;
+}
+
+.itemlink
+{
+	background: #00FF00; /* Fallback */
+	background: rgba(0, 255, 0, 0.2);
+	border-radius: 25px;
+	padding: 5px 10px 10px 10px;
+	margin: 10px 0;
+}
+
+.itemlink2
+{
+	background: #A5BEFF; /* Fallback */
+	background: rgba(165, 190, 255, 0.2);
+	border-radius: 15px 25px;
+	padding: 5px 10px 10px 10px;
+	margin: 10px 0;
+}
+
+.pungScattule
+{
+	margin-top: -0.6em;
+	padding-left: 30px;
+}
+
+.pung
+{
+	display: inline; margin: 0 2px;
+}
+
+.imgMedio 
+{
+	display: block;
+	margin: auto;
+	width: 400px;
+}
+
+.floatLeft {float: left; margin-right: 10px;}
+.floatRight {float: right; margin-left: 10px;}
+.floatImgMedioLeft {float: left; margin-right: 10px;}
+.floatImgMedioRight {float: right; margin-left: 10px;}
+
+img#sambahsasFlag 
+{
+	display: block;
+	width: 50%;
+	margin: auto;
+}
+
+
+
+/* Pro CURS*/
+
+div.mathmounCurs {background-color: #3E573E; padding-top: 10px; padding-bottom: 10px; padding-left: 15%; padding-right: 15%; min-height: 100vh;}
+.cursButton {margin-top: 5px; margin-bottom: 5px;}
+
+.cursTitule
+{
+	color: #E0B650;
+	font-weight: bold;
+	font-size: 3em;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-left: -30px;
+	margin-right: -30px;
+}
+
+.cursSmulkTitule
+{
+	font-weight: bold;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+div.mathmounCursInner
+{
+	border-radius: 25px;
+	background-color: #E0B650;
+	color: #000000;
+	padding: 20px;
+	margin: auto;
+	text-align: center;
+}
+
+div.mathmounCursDeil {display: none;}
+.cursBahsa {display: none;}
+.bahsaEn {display: none;}
+.bahsaPtbr {display: none;}
+.bahsaEs {display: none;}
+.bahsaFr {display: none;}
+
+.spanlinkCurs {font-weight: bold; cursor: pointer;}
+.cursReik {text-align: center;}
+
+.itemSmallCurs {display: inline-block; margin: 5px 20px 5px 20px;}
+
+.fourColumnTable {width: 100%;}
+
+a.linkCurs:link{color: #5081E0; text-decoration:none;}
+a.linkCurs:visited{color: #5081E0; text-decoration:none;}
+
+.cursTexte {
+	background: #FF0000; /* Fallback */
+	background: rgba(255, 0, 0, 0.2);
+	padding: 5px;
+}
+
+.spt 
+{
+	background: #FFFFFF; /* Fallback */
+	background: rgba(255, 255, 255, 0.5);
+	padding: 3px 3px 3px 3px;
+	font-size: 0.8em;
+}
+
+.readingSb 
+{
+	padding-bottom: 5px;
+	/*background: #FF756A;*/
+	background: #FFE096;
+	width: 80%;
+	margin: auto;
+	border-radius: 15px;
+	padding: 5px;
+	text-align: center;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+.readingSPT
+{
+	padding-left: 5px; padding-right: 5px;
+	background: #FFFFFF; /* Fallback */
+	background: rgba(255, 255, 255, 0.5);
+	width: 90%;
+	margin: auto;
+	text-align: center;
+	font-size: 0.8em;
+	font-weight: normal;
+}
+.readingText
+{
+	border: 1px solid black; padding-left: 5px; padding-right: 5px;
+	background: #FAFFD5;
+	width: 90%;
+	margin: auto;
+	text-align: center;
+	font-size: 0.9em;
+	font-weight: normal;
+}
+.readingComment
+{
+	border: 1px solid black; padding: 5px;
+	background: #FFFFFF;
+	width: 90%;
+	margin: auto;
+	text-align: left;
+	font-size: 0.8em;
+	font-style: italic;
+	font-weight: normal;
+}
+.readingSource
+{
+	padding-left: 5px; padding-right: 5px;
+	background: #DFFFB9;
+	width: 80%;
+	margin: 0.5em auto auto auto;
+	text-align: center;
+	font-size: 0.7em;
+	font-weight: normal;
+}
+
+@media screen and (max-width: 1700px)
+{
+	.slides {font-size: 1.8em;}
+	.spanspace {padding: 0 40px 0 40px;}
+}
+
+@media screen and (max-width: 1200px)
+{
+	#principalMessage {font-size: 4em; width: 60%;}
+	#rotativeSymbol {margin-left: 10%; margin-right: 5%; width: 25%;}
+	#meger-symbol {width: 100%;}
+	.inputTextArea {width: 90%;}
+	.slides {font-size: 1.4em;}
+	.div.mathmounCurs {padding-left: 10%; padding-right: 10%;}
+}
+
+@media screen and (max-width: 1000px)
+{
+	img#sambahsasFlag {width: 35%;}
+	img.fullimg {width: 100%;}
+	.itemSmallCurs {margin: 5px 10px 5px 10px;}
+	.generictable {font-size: 0.9em;}
+	.readingSb  {width: 95%;}
+}
+
+@media screen and (max-width: 800px)
+{
+	span.menueItem {display: inline-block; padding-top: 10px; padding-bottom: 10px;}
+	div.mathmoun {padding-left: 10%; padding-right: 10%;}
+	div.mathmounCurs {padding-left: 5%; padding-right: 5%;}
+	span.menueItem {margin-left: 10px; margin-right: 10px;}
+	#principalMessage {font-size: 3em;}
+	#rotativeSymbol {top: 40%;}
+	#alyoBahsa {display: block; width: 80%; text-align: center; margin: auto;}
+	.inputTextArea {width: 95%;}
+}
+
+@media screen and (max-width: 700px)
+{
+	img#sambahsasFlag {width: 20%;}
+	.slides {font-size: 1.3em;}
+	.spanspace {padding: 0 20px 0 20px;}
+	.itemSmallCurs {margin: 10px 5px;}
+}
+
+@media screen and (max-width: 600px)
+{
+	img#kwekwl {display: block; margin: auto;}
+	#principalMessage {display: block; text-align: center; width: 100%; margin-bottom: 20px;}
+	#rotativeSymbol {position: static; top: auto; display: block; text-align: center; width: 50%; margin: auto;}
+	#mathmoun000-container {position: static; margin-left: auto;}
+	div.smulkScattule {width: 70%;}
+	div.mathmounCurs {padding-left: 3%; padding-right: 3%;}
+	.spanspace {padding: 0 10px 0 10px;}
+	.itemSmallCurs {margin: 5px 5px 5px 5px;}
+	.fourColumnTable {font-size: 0.9em;}
+}
+
+@media screen and (max-width: 470px)
+{
+	#principalMessage {font-size: 2em;}
+	.imgMedio {width: 100%;}
+	.nikladPung {margin: auto;}
+	div.colunn {width: 90%;}
+	div.smulkScattule {width: 90%;}
+	.spanspace {display: block; padding: 5px 0 5px 0;}
+	.itemSmallCurs {margin: 10px 3px;}
+	.fourColumnTable {font-size: 0.7em;}
+	.generictable {font-size: 0.8em;}
+}
